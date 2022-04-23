@@ -1,0 +1,189 @@
+/*Global css*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.global-btn {
+  width: 110px;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+
+/* header  */
+header{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+}
+header img{
+  width: 80px;
+}
+.menu ul li{
+  display: inline;
+  margin-right: 1rem;
+}
+
+/* first section */
+
+.first-section {
+  background-image: url(./images/intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10rem 0;
+  text-align: center;
+}
+.first-section h2 {
+  font-size: 50px;
+}
+
+/* about me section*/
+
+.about-me {
+  margin: 1rem 0;
+}
+.about-heading {
+  font-size: 30px;
+  text-align: center;
+}
+.about-head-p {
+  color: #4d4b4d;
+  text-align: center;
+}
+.about-main-div {
+  margin: 1rem 0;
+  justify-content: center;
+  display: flex;
+}
+.about-sub-div2 h2 {
+  font-size: 25px;
+  margin-top: 4rem;
+}
+.about-sub-div2-p {
+  text-align: justify;
+  width: 500px;
+}
+
+/* service section*/
+
+.service-bg {
+  background-color: rgb(219, 219, 219);
+  padding-top: 2rem;
+}
+.service-heading {
+  font-size: 30px;
+  text-align: center;
+}
+.service-head-p {
+  color: #4d4b4d;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-single-item {
+  padding: 50px;
+  text-align: center;
+}
+.custom-icon-size {
+  font-size: 50px;
+}
+
+/* work section*/
+.work {
+  margin-top: 2rem;
+}
+.work-heading {
+  font-size: 30px;
+  text-align: center;
+}
+.work-head-p {
+  color: #4d4b4d;
+  text-align: center;
+}
+.work-single-image{
+  width: 390px;
+}
+
+/* Testimonial section */
+.testimonial{
+  background-color: rgb(240, 240, 240);
+  padding: 2rem;
+}
+.Testimonial-h2{
+  text-align: center;
+  padding-top: 2rem;
+}
+.Testimonial-h2-p{
+  color: #4d4b4d;
+  text-align: center;
+}
+.Testimonial-main-div{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+/* contact section  */
+
+.contact{
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.contact-h2{
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.contact-form input{
+  width: 600px ;
+}
+.contact-form textarea{
+  width: 600px;
+}
+.contact-submit-btn{
+  width: 600px !important;
+  height: 30px;
+  color: white;
+  background-color: black;
+}
+.contact-form{
+  margin: 0 428px;
+}
+
+/* footer section  */
+footer{
+  background-color: black;
+  color: white;
+  height: 3rem;
+  text-align: center;
+}
+footer p{
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
